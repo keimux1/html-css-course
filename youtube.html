@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>youtube.co clone</title>
+  <style>
+    .thumbnail{
+      width: 300px;
+      /* height: 300px;
+      border-radius: 4px;
+       object-fit:contain;
+     object-position: center; */
+      display: block;
+    }
+    .search-bar{
+      display: block;
+
+    }
+    .video-title{
+      width: 300px;
+    }
+
+    .video-preview{
+     width: 300px;
+     display: inline-block;
+     vertical-align: top;
+     margin-right: 15px;
+    }
+
+    .test{
+      width: 400px;
+      background-color: rgb(192, 192, 179);
+      box-shadow: 2px 2px 10px black;
+      box-shadow: -2px -2px 10px black;
+      margin: 50px;
+    }
+    .cat ,
+    .profile-picture {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-position: center;
+      margin: 10px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .tweet-button{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border-width: 5px;
+  border-style: none;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 20%;
+  vertical-align: middle;
+  padding: 10px 16px 10px 16px;
+  transition: box-shadow 0.15s;
+  display: inline-block;
+}
+.tweet-button:hover{
+  box-shadow: 5px 5px 10px black;
+}
+
+.test-paragraph{
+  display: inline-block;
+  vertical-align: middle;
+}
+  </style>
+</head>
+<body>
+  <input class="search-bar" type="text" placeholder="search">
+<div class="video-preview">
+  <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="mkbhd">
+<p class="video-title">
+  Talking Tech <strong>and Ai with</strong> Google CEO sundar Pichai!
+</p>
+<p class="video-author">
+  Marques brownlee
+</p>
+<p class="video-stats">
+  3.4M veiws  &#x2022; 6months
+</p>
+</div>
+<div class="video-preview">
+  <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="mkbhd">
+<p class="video-title">
+ Try Not To Laugh Challenge #9
+</p>
+<p class="video-author">
+  Markiplier
+</p>
+<p class="video-stats">
+  19M veiws  &#x2022; 4years
+</p>
+</div>
+
+<div class="test">
+    <img class="cat" src="thumbnails/cat.jpg" alt="cat">
+  <p class="test-paragraph">
+    What's happening?
+  </p>
+  <button class="tweet-button">
+    Tweet
+  </button>
+</div>
+
+<div class="cat-list">
+  <div class="cat-corusel">
+    <img class="cat2" src="thumbnails/cat.jpg" alt="cat">
+    <h4 class="cat-name">
+      Oliver
+    </h4>
+    <p class="mutual-friends">
+    2 mutual friends
+    </p>
+    
+    <button class="cat-button">
+      add Friend
+    </button>
+  </div>
+
+  <div class="cat-corusel">
+    <img class="cat2" src="thumbnails/cat.jpg" alt="cat">
+    <h4 class="cat-name">
+      Oliver
+    </h4>
+    <p class="mutual-friends">
+    2 mutual friends
+    </p>
+    
+    <button class="cat-button">
+      add Friend
+    </button>
+  </div>
+
+  <div class="cat-corusel">
+    <img class="cat2" src="thumbnails/cat.jpg" alt="cat">
+    <h4 class="cat-name">
+      Oliver
+    </h4>
+    <p class="mutual-friends">
+    2 mutual friends
+    </p>
+    
+    <button class="cat-button">
+      add Friend
+    </button>
+  </div>
+</div>
+<button>
+  hiii
+</button>
+</body>
+</html>
+
+<style>
+  .cat-corusel{
+    width: 150px;
+    background-color: rgb(221, 219, 216);
+    border-radius: 8px;
+    margin: 2px 4px;
+    display: inline-block;
+
+  }
+  .cat2{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .cat-name{
+    margin: 8px 4px 2px 8px;
+    color: black;
+  }
+  .mutual-friends{
+    margin: 2px 2px 16px 8px;
+    color: rgb(104, 103, 103);
+  }
+  .cat-button{
+    background-color: rgb(29, 155, 240);
+  color: white;
+  border-style: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  vertical-align: middle;
+  padding: 10px 16px 10px 16px;
+  transition: box-shadow 0.15s;
+  display: inline-block;
+  }
+</style>
