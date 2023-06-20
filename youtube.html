@@ -4,7 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>youtube.co clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
+    p {
+      font-family: Roboto ,arial;
+      margin: 0;
+      }
+    
     .thumbnail{
       width: 300px;
       /* height: 300px;
@@ -27,6 +35,10 @@
 
     .video-title{
       margin: 0px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      margin-bottom: 12px;
     }
 
     .channel-picture{
@@ -45,6 +57,19 @@
       border-radius: 50px;
     }
    
+    .thumbnail-row{
+      margin-bottom: 12px;
+    }
+
+    .video-author , .video-stats{
+      font-size: 12px;
+      color: rgb(96, 96, 96);
+    }
+
+    .video-author , .video-stats{
+      margin-bottom: 4px;
+    }
+  
   </style>
 </head>
 <body>
@@ -52,7 +77,7 @@
 
   <div class="video-preview">
 
-    <div>
+    <div class="thumbnail-row">
       <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="mkbhd">
     </div>
 
@@ -72,7 +97,7 @@
         </p>
   
         <p class="video-stats">
-          3.4M veiws  &#x2022; 6months
+          3.4M veiws  &#x2022; 6months ago
         </p>
 
       </div>
@@ -80,7 +105,39 @@
     </div>
   </div>
 
-<div class="video-preview">
+  <div class="video-preview">
+
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="mkbhd">
+    </div>
+
+    <div>
+      <div class="channel-picture">
+        <img class="profile-picture" src="thumbnails/channel-2.jpeg" alt="profile.-picture">
+      </div>
+
+      <div class="video-info">
+
+        <p class="video-title">
+          Try Not To Laugh Challenge #9 
+        </p>
+  
+        <p class="video-author">
+          Markiplier
+        </p>
+  
+        <p class="video-stats">
+          19M veiws  &#x2022; 4years ago
+        </p>
+
+      </div>
+    
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- <div class="video-preview">
   <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="mkbhd">
 
 <p class="video-title">
@@ -92,8 +149,4 @@
 <p class="video-stats">
   19M veiws  &#x2022; 4years
 </p>
-</div>
-
-</body>
-</html>
-
+</div> -->
