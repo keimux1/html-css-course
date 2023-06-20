@@ -17,10 +17,7 @@
       display: block;
 
     }
-    .video-title{
-      width: 300px;
-    }
-
+  
     .video-preview{
      width: 300px;
      display: inline-block;
@@ -28,25 +25,64 @@
      margin-right: 15px;
     }
 
+    .video-title{
+      margin: 0px;
+    }
+
+    .channel-picture{
+      display: inline-block;
+      width: 50px;
+      vertical-align: top;
+    }
+    
+    .video-info{
+      display: inline-block;
+      width: 200px;
+    }
+
+    .profile-picture{
+      width: 40px;
+      border-radius: 50px;
+    }
    
   </style>
 </head>
 <body>
   <input class="search-bar" type="text" placeholder="search">
-<div class="video-preview">
-  <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="mkbhd">
-<p class="video-title">
-  Talking Tech <strong>and Ai with</strong> Google CEO sundar Pichai!
-</p>
-<p class="video-author">
-  Marques brownlee
-</p>
-<p class="video-stats">
-  3.4M veiws  &#x2022; 6months
-</p>
-</div>
+
+  <div class="video-preview">
+
+    <div>
+      <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="mkbhd">
+    </div>
+
+    <div>
+      <div class="channel-picture">
+        <img class="profile-picture" src="thumbnails/mkbhd profile.jpeg" alt="profile.-picture">
+      </div>
+
+      <div class="video-info">
+
+        <p class="video-title">
+          Talking Tech <strong>and Ai with</strong> Google CEO sundar Pichai!
+        </p>
+  
+        <p class="video-author">
+          Marques brownlee
+        </p>
+  
+        <p class="video-stats">
+          3.4M veiws  &#x2022; 6months
+        </p>
+
+      </div>
+    
+    </div>
+  </div>
+
 <div class="video-preview">
   <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="mkbhd">
+
 <p class="video-title">
  Try Not To Laugh Challenge #9
 </p>
