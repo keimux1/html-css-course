@@ -14,24 +14,18 @@
       }
     
     .thumbnail{
-      width: 300px;
+      width: 100%;
       /* height: 300px;
       border-radius: 4px;
        object-fit:contain;
      object-position: center; */
-      display: block;
+      /* display: block; */
     }
     .search-bar{
       display: block;
 
     }
   
-    .video-preview{
-     width: 300px;
-     display: inline-block;
-     vertical-align: top;
-     margin-right: 15px;
-    }
 
     .video-title{
       margin: 0px;
@@ -42,13 +36,13 @@
     }
 
     .channel-picture{
-      display: inline-block;
+      /* display: inline-block;
       width: 50px;
-      vertical-align: top;
+      vertical-align: top; */
     }
     
     .video-info{
-      display: inline-block;
+      /* display: inline-block; */
       width: 200px;
     }
 
@@ -69,69 +63,197 @@
     .video-author , .video-stats{
       margin-bottom: 4px;
     }
+
+    .video-info-grid{
+      display: grid;
+      grid-template-columns: 50px 1fr;
+    }
+    .video-grid{
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr;
+      column-gap: 16px;
+      row-gap: 40px;
+
+    }
   
   </style>
 </head>
 <body>
   <input class="search-bar" type="text" placeholder="search">
 
-  <div class="video-preview">
+  <div class="video-grid">
+    <div class="video-preview">
 
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="mkbhd">
-    </div>
-
-    <div>
-      <div class="channel-picture">
-        <img class="profile-picture" src="thumbnails/mkbhd profile.jpeg" alt="profile.-picture">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="mkbhd">
       </div>
-
-      <div class="video-info">
-
-        <p class="video-title">
-          Talking Tech <strong>and Ai with</strong> Google CEO sundar Pichai!
-        </p>
   
-        <p class="video-author">
-          Marques brownlee
-        </p>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="thumbnails/mkbhd profile.jpeg" alt="profile.-picture">
+        </div>
   
-        <p class="video-stats">
-          3.4M veiws  &#x2022; 6months ago
-        </p>
-
-      </div>
+        <div class="video-info">
+  
+          <p class="video-title">
+            Talking Tech <strong>and Ai with</strong> Google CEO sundar Pichai!
+          </p>
     
-    </div>
-  </div>
-
-  <div class="video-preview">
-
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="mkbhd">
-    </div>
-
-    <div>
-      <div class="channel-picture">
-        <img class="profile-picture" src="thumbnails/channel-2.jpeg" alt="profile.-picture">
-      </div>
-
-      <div class="video-info">
-
-        <p class="video-title">
-          Try Not To Laugh Challenge #9 
-        </p>
-  
-        <p class="video-author">
-          Markiplier
-        </p>
-  
-        <p class="video-stats">
-          19M veiws  &#x2022; 4years ago
-        </p>
-
-      </div>
+          <p class="video-author">
+            Marques brownlee
+          </p>
     
+          <p class="video-stats">
+            3.4M veiws  &#x2022; 6months ago
+          </p>
+  
+        </div>
+      
+      </div>
+    </div>
+  
+    <div class="video-preview">
+  
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="mkbhd">
+      </div>
+  
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="thumbnails/channel-2.jpeg" alt="profile.-picture">
+        </div>
+  
+        <div class="video-info">
+  
+          <p class="video-title">
+            Try Not To Laugh Challenge #9 
+          </p>
+    
+          <p class="video-author">
+            Markiplier
+          </p>
+    
+          <p class="video-stats">
+            19M veiws  &#x2022; 4years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+  
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="mkbhd">
+      </div>
+  
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="thumbnails/channel-3.jpeg" alt="profile.-picture">
+        </div>
+  
+        <div class="video-info">
+  
+          <p class="video-title">
+           Crazy Tik Toks Taken Moments Before DISATER
+          </p>
+    
+          <p class="video-author">
+            SSSniperWolf
+          </p>
+    
+          <p class="video-stats">
+            12M veiws  &#x2022; 1 year ago
+          </p>
+  
+        </div>
+      
+      </div>
+    </div>
+  
+    <div class="video-preview">
+  
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="mkbhd">
+      </div>
+  
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="thumbnails/channel-4.jpeg" alt="profile.-picture">
+        </div>
+  
+        <div class="video-info">
+  
+          <p class="video-title">
+          The Simplest Math Problem No One can Solve -Collatz Conjecture
+          </p>
+    
+          <p class="video-author">
+            Veritasium
+          </p>
+    
+          <p class="video-stats">
+            18M veiws  &#x2022; 4 moths ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+  
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="mkbhd">
+      </div>
+  
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="thumbnails/channel-5.jpeg" alt="profile.-picture">
+        </div>
+  
+        <div class="video-info">
+  
+          <p class="video-title">
+            Kadane's Algorithm to Maximum Sum Subarray Problem
+          </p>
+    
+          <p class="video-author">
+            CS Dojo
+          </p>
+    
+          <p class="video-stats">
+            519k veiws  &#x2022; 6 years ago
+          </p>
+  
+        </div>
+      
+      </div>
+    </div>
+  
+    <div class="video-preview">
+  
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="mkbhd">
+      </div>
+  
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="thumbnails/channel-6.jpeg" alt="profile.-picture">
+        </div>
+  
+        <div class="video-info">
+  
+          <p class="video-title">
+            Anrthing You Can Fit In The Circle I'll Pay For
+          </p>
+    
+          <p class="video-author">
+            MrBeast
+          </p>
+    
+          <p class="video-stats">
+            141M veiws  &#x2022; 1 years ago
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </body>
