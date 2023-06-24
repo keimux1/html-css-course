@@ -1,0 +1,141 @@
+.general{
+display: flex;
+align-items: center;
+margin-top: 30px;
+padding: 2px;
+background-color: cadetblue;
+justify-content: center;
+}
+
+
+.item{
+display: flex;
+width: 100px;
+background-color: lightblue;
+/* height: 40px; */
+align-items: center;
+justify-content: center;
+}
+
+.item1{
+  background-color: lightpink;
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 47px;
+}
+.empty{
+display: flex;
+width: 200px;
+background-color: lightcoral;
+justify-content: center;
+align-items: center;
+}
+.empty1{
+background-color: lightcoral;
+display: flex;
+width: 200px;
+justify-content: space-between;
+align-items: center;
+}
+
+.empty1-divided{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 4px;
+
+}
+
+.row1{
+  padding: 2px;
+  background-color: lightseagreen;
+  
+
+}
+.row2{
+  padding: 2px;
+  background-color: lightgreen;
+}
+.empty1-row2{
+  margin-right: 4px;
+  background-color: lightgrey;
+}
+
+.tweeter{
+  margin-top: 30px;
+  background-color: rgb(238, 245, 247);
+  display: flex;
+  border-radius: 16px;
+
+}
+
+.profile-pic{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  
+
+}
+
+img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 6px;
+}
+description{
+  padding: 2px;
+.}
+
+.tweet-text{
+  font-size: large;
+  margin-bottom: 8px;
+}
+
+
+.tweet-account{
+  display: flex;
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.tweet-account-text{
+  margin: 8px;
+}
+
+.youtube{
+display: flex;
+border-radius: 16px;
+margin: 8px;
+border: solid;
+border-width: 1px;
+border-color: rgb(175, 175, 175);
+}
+
+.youtube-attachment{
+display: flex;
+flex-direction: column;
+margin: 4px;
+
+}
+
+.title{
+  font-size: larger;
+}
+
+.video-description ,
+.username{
+  color: rgb(92, 91, 91);
+  font-size: x-large;
+}
+
+.empty-pic{
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  border-radius: 16px 0 0 16px ;
+}
