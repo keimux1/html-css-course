@@ -2,5 +2,7 @@ body{
   margin: 0;
   padding-top: 80px;
   padding-left: 90px;
+  padding-right: 24px;
   height: 1000px;
+  background-color: rgb(255, 255, 255);
 }
